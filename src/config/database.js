@@ -6,7 +6,7 @@ password: 'root',
 database: 'Api_Fit',
 define: {
     timestamps: true,
-    undescored: true,
+    underscored: true,
 },
 };
 
