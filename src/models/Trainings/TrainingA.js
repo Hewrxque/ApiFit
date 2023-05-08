@@ -14,9 +14,6 @@ class TrainingA extends Model {
         tableName: "trainingA", // Nome da tabela no MySQL
       }
     );
-    (async () => {
-      await sequelize.sync({ force: true });
-    })();
   }
 }
 
