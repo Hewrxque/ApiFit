@@ -1,6 +1,6 @@
 const { Model, DataTypes } = require("sequelize");
 
-class TrainingA extends Model {
+class TrainingD extends Model {
   static init(sequelize) {
     super.init(
       {
@@ -10,11 +10,11 @@ class TrainingA extends Model {
       },
       {
         sequelize,
-        modelName: "trainingA", // Nome do modelo
-        tableName: "trainingA", // Nome da tabela no MySQL
+        modelName: "trainingD", // Nome do modelo
+        tableName: "trainingD", // Nome da tabela no MySQL
       }
     );
   }
 }
 //Treinos de peito
-module.exports = TrainingA;
+module.exports = TrainingD;
